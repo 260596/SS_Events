@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sri Sumangali Events</title>
+  <link rel="icon" href="images/favicon-icon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="wrapper">
+
+      <!-- Header Section Starts-->
+
+      <section id="header">
+        <div class="container">
+          <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <div class="logo">
+                  <a class="navbar-brand" href="#"><img src="images/logo-1.png" class="img-logo" alt="Logo"></a>
+                </div>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right category-menu">
+                  <li class=""><a href="#banner-section">HOME</a></li>
+                  <li><a href="#event-section">EVENTS</a> </li>
+                  <li><a href="#aboutus-section">ABOUT US</a> </li>
+                  <li><a href="#services-section">SERVICES</a></li>
+                  <li><a href="#address-section">ADDRESS</a></li>
+                  <li><a href="#contactus-section">CONTACT US</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </section>
+
+      <!-- Header Section Ends-->
+
+      <!-- Banner Section Starts -->
+
+      <section id="banner-section">
+        <div class="container-fluid banner-bg">
+          <div class="container">
+            <div class="row banner-row">
+
+              <div class="col-md-6 banner-box">
+
+                <h3>Welcome to</h3>
+                <h1>Sri Sumangali Events</h1>
+                <p>Making Your Dream Wedding Come True.
+                  We understand that your wedding day is one of the most important and cherished moments of your life.
+                  <br>
+                  <br>Our team of dedicated and passionate wedding planners are now here to turn your dreams into a
+                  reality.
+                </p>
+              </div>
+
+              <div class="col-md-6 banner-right">
+                <div class="music-button">
+                  <img src="images/icon-play.png" id="icon">
+                  <h4 class=""> Music</h4>
+                  <audio autoplay id="myAudio">
+                    <source src="images/carnatic-music.mp3" type="audio/mp3">
+                  </audio>
+                  <script>
+                    var myAudio = document.getElementById("myAudio");
+                    var icon = document.getElementById("icon");
+
+                    icon.onclick = function () {
+                      if (myAudio.paused) {
+                        myAudio.play();
+                        icon.src = "images/icon-pause.png";
+                      } else {
+                        myAudio.pause();
+                        icon.src = "images/icon-play.png";
+                      }
+                    }
+                  </script>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Banner Section Ends-->
+
+      <!-- Event Section starts-->
+
+      <section id="event-section">
+        <div class="container">
+          <div class="event-bg">
+          </div>
+          <div class=" row text-center event-title">
+            <h4>Lets Celebrate<br><span class="event-text">Events</span><br>With</h4>
+          </div>
+          <div class="row event-box">
+
+            <div class="col-md-3">
+              <div class="event-item text-center">
+                <img src="images/event-icon1.png" alt="Decorations">
+                <h3 class="event-icon-title">Decorations</h3>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="event-item text-center">
+                <img src="images/event-icon2.png" alt="Mangala Vathiyam">
+                <h3 class="event-icon-title">Mangala Vathiyam</h3>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="event-item text-center">
+                <img src="images/event-icon3.png" alt="Catering">
+                <h3 class="event-icon-title">Catering</h3>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="event-item text-center">
+                <img src="images/event-icon4.png" alt="Pooja Needs">
+                <h3 class="event-icon-title">Pooja Needs</h3>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="event-small-bg">
+        </div>
+      </section>
+
+      <!-- Event Section Ends-->
+
+      <!-- About-Us Section Starts-->
+
+      <section id="aboutus-section">
+        <div class="container-fluid aboutus-container">
+          <div class="container">
+            <div class="row aboutus-row">
+              <div class="col-md-5 text-center">
+                <img class="responsive-img" src="images/about-us-img1.png" alt="holi" width="500px">
+              </div>
+              <div class="col-md-1"></div>
+              <div class="col-md-6 aboutus-content">
+                <h3>About Us </h3><br><br>
+                <p>Whether it's a dreamy wedding, a milestone birthday, or a joyous family gathering, we transform your
+                  special moments into cherished memories that will be treasured for a lifetime.
+                </p><br><br>
+                <p>Our friendly and approachable team is always ready to address your needs and concerns.
+                </p><br><br><br>
+                <div class="row list-row">
+                  <div class="col-md-6 aboutus-items">
+                    <ul class="aboutus-list">
+                      <li>Marriage Events</li><br>
+                      <li>Birthday Events</li><br>
+                      <li>Band&Bharathanatyam</li><br>
+                      <li>DJ & Entertainments</li><br>
+                      <li>Catering</li><br>
+                    </ul>
+                  </div>
+                  <div class="col-md-1"></div>
+                  <div class="col-md-5 aboutus-items">
+                    <ul class="aboutus-list">
+                      <li>Mangala Vathiyam</li><br>
+                      <li>Marriage Hall</li><br>
+                      <li>Iyyar & Pooja Needs</li><br>
+                      <li>Decorations</li><br>
+                      <li>Chanda Melam</li><br>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div><br><br><br><br>
+          </div>
+          <div class="row text-center">
+            <img src="images/about-us-img2.jpg" alt="about-image" width="380px">
+          </div>
+        </div>
+      </section>
+
+      <!-- About-Us Section Ends-->
+
+      <!-- Services Section Starts-->
+
+      <section id="services-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 services-section-box">
+              <h2>Our Services!</h2>
+              <p>Our team consists of experienced wedding planners who have successfully organized a wide range of
+                weddings,
+                from intimate gatherings to grand celebrations.
+                You can trust us to handle every aspect with expertise and finesse.<br>
+                <br>
+                We believe that each love story is unique, and your wedding should reflect your personalities and
+                preferences.
+                Our planners work closely with you to understand your vision and create a bespoke wedding that resonates
+                with your love story.
+              </p>
+              <button type="button" class="btn btn-default pink-btn">Read More</button>
+            </div>
+            <div class="col-md-1"></div>
+
+            <div class="col-md-6 service-items si-top">
+              <div class="service-item">
+                <img src="images/service-img1.png" alt="" />
+                <h5>Music</h5>
+              </div>
+              <div class="row service-item">
+                <div class="col-md-6 si-left">
+                  <img src="images/service-img2.png" alt="" />
+                  <h5>Varisai</h5>
+                </div>
+                <div class="col-md-6 si-right">
+                  <img src="images/service-img3.png" alt="" />
+                  <h5>Food</h5>
+                </div>
+              </div>
+              <div class="service-item si-bottom">
+                <img src="images/service-img4.png" alt="" />
+                <h5>Marriage</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section Ends-->
+
+      <!-- Address Section Starts-->
+
+      <section id="address-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <img class="address-img" src="images/address-img.png" alt="Services img" />
+            </div>
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-5 address-box">
+              <h2>Book Your Events </h2>
+              <p class="address-bar">
+                No.40 ,Thiruneelagandar Street ,<br>
+                Thiruvannamalai .<br>
+                606601<br>
+                <br>
+                Contact No : 9486256646 & 8072432415.
+              </p>
+              <p class="address-bar">
+                Near Arulmigu Arunachaleswarar Temple.
+              </p>
+              <button type="button" class="btn btn-default pink-btn">Contact</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Address Section Ends-->
+
+      <!-- Special Section Starts-->
+
+      <section id="special-section">
+        <div class="container special-container">
+          <div class="row special-row">
+            <div class="col-md-6 special-img">
+              <img class="responsive-img" src="images/special-img.png" alt="">
+            </div>
+            <div class="col-md-6 special-content">
+              <h4>Our special!<br></h4>
+              <p>
+                Planning a wedding can be overwhelming, but with our support, you can relax and enjoy the journey.
+                We handle all the logistics, so you can focus on cherishing these once-in-a-lifetime moments. <br>
+                <br>
+                Let us take care of everything from initial concept to execution.
+                We assist with venue selection, vendor management, budget planning, and all the intricate details that
+                go into creating a memorable wedding.
+              </p>
+              <button type="button" class="btn btn-default pink-btn">Read More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Special Section Ends-->
+
+      <!-- Contact-Us Section Starts-->
+
+      <section id="contactus-section">
+        <div class="google-map">
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                marginheight="0" marginwidth="0"
+                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=thiruneelagandar street, thiruvannamalai&amp;t=h&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                href="https://connectionsgame.org/">Connections Game</a></div>
+            <style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                width: 100%;
+                height: 400px;
+              }
+
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                width: 100%;
+                height: 400px;
+              }
+
+              .gmap_iframe {
+                height: 400px !important;
+              }
+            </style>
+          </div>
+          <div class="contact-container">
+            <div class="container">
+              <div class="col-md-12 contactus-box">
+                <div class="google-icon">
+                  <a href="#" class="gg">
+                    <span id="map-icon" class="glyphicon glyphicon-map-marker large"></span>
+                  </a>
+                </div>
+                <h4>FIND US ON EARTH</h4>
+                <h3>HAVE ANY QUERIES</h3>
+                <h2>JUST CONTACT US!</h2><br>
+                <p>Sri Sumangali Events , No.40 , Thiruneelagandar Street , Thiruvannamalai - 606601.
+                </p><br>
+                <form class="form-inline" action="">
+                  <label for="name"><span class="glyphicon glyphicon-user"></span></label>
+                  <input type="text" id="name" placeholder="YOUR NAME" name="name"> <br>
+                  <label for="email"><span class="glyphicon glyphicon-envelope"></span></label>
+                  <input type="email" id="email" placeholder="YOUR EMAIL ID" name="email"> <br>
+                  <label for="phone"><span class="glyphicon glyphicon-earphone"></span></label>
+                  <input type="tel" id="phone" placeholder="MOBILE NO" name="phone">
+                  <span class="form-botton"><button type="button" class="btn btn-default pink-btn">SUBMIT NOW</button>
+              </div></span>
+              </form>
+            </div>
+          </div>
+      </section>
+
+      <!-- Contact-Us Section Ends-->
+
+      <!-- Other-Services Section Starts-->
+
+      <section id="other-services">
+        <div class="container">
+          <div class="other_bg-img">
+          </div>
+          <div class="row services-row">
+            <div class="col-md-3 otherservices-heading">
+              <h3><span class="small-text">Our</span><br>Other<br>Services
+              </h3>
+              <br><br><br>
+            </div>
+            <div class="col-md-3 other-img">
+              <img src="images/other-services1.jpg" class="cirl-pink" alt="" />
+              <h6>Birthday Events</h6><br>
+            </div>
+            <div class="col-md-3 other-img">
+              <img src="images/other-services2.jpg" class="cirl-blue" alt="" />
+              <h6>Engagements</h6><br>
+            </div>
+            <div class="col-md-3 other-img">
+              <img src="images/other-services3.jpg" class="cirl-green" alt="" />
+              <h6>Political Events</h6><br>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Other-Services Section Ends-->
+
+      <!-- Footer Section Starts-->
+
+      <section id="footer-section">
+        <div class="container">
+          <div class="foot-logo">Sri Sumangali Events
+          </div>
+          <div class="foot-menu">
+            <ul>
+              <li><a href="#banner-section">Home</a></li>|
+              <li><a href="#event-section">Events</a></li>|
+              <li><a href="#aboutus-section">About Us</a></li>|
+              <li><a href="#services-section">Services</a></li>|
+              <li><a href="#address-section">Address</a></li>|
+              <li><a href="#contactus-section">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="social-icons">
+            <a href="#https://www.facebook.com/facebook/"><img src="images/fb-icon.png" alt="fb" width="30"
+                height="30"></a>
+            <a href="#https://www.instagram.com/explore/locations/30560023/homepage/"><img src="images/insta-icon.png"
+                alt="instagram" width="30" height="30"></a>
+            <a href="#https://twitter.com/"><img src="images/twitter-icon.png" alt="twitter" width="30" height="30"></a>
+            <a href="#https://www.youtube.com/"><img src="images/youtube-icon.png" alt="youtube" width="30"
+                height="30"></a>
+            <a href="#contactus-section"><img src="images/mail-icon.png" alt="mail" width="30" height="30"></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer Section Ends-->
+
+      <!-- Copyright Section Starts-->
+
+      <section id="copyright-section">
+        <div class="container">
+
+          <p>&copy; Copyright 2023 2winclouds. All Rights Reserved.</p>
+        </div>
+        <div class="position-fixed end-0 bottom-0">
+          <span class="to-top">
+            <!--<a class="up-arrow" href="#banner-section" data-toggle="tooltip" title="TO TOP">-->
+
+            <a class="up-arrow" onclick='window.scrollTo({top: 0, behavior: "smooth"});'>
+              <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+          </span>
+        </div>
+
+      </section>
+
+      <!-- Copyright Section Ends-->
+
+    </div>
+  </div>
+</body>
